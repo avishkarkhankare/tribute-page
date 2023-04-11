@@ -1,0 +1,70 @@
+#navigation{
+    /* background-color: rgb(160 222 220 / 60%); */
+    border-radius: 20px;
+    width: 986px;
+    font-size: 19px;
+    border: 2px solid black;
+}
+
+
+
+body::before{
+position: absolute;
+content: "";
+background: url("https://tse4.mm.bing.net/th?id=OIP.WRvIy1XjlsNzDHkrABXThQHaEK&pid=Api&P=0") no-repeat center center/cover;
+top: 0%;
+left: 0%;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.7;
+
+
+}
+
+ul{
+display: flex;
+}
+
+li a:hover{
+color: rgb(180, 12, 247);
+}
+
+a{
+padding: 0px 9px;
+margin: 0px 21px;
+text-decoration: none;
+color: black;
+}
+
+li{
+list-style: none;
+}
+
+#swami{
+float: right;
+margin: -174px;
+margin-right: 9px;
+
+}
+#foot a{
+padding: 25px 0px;
+color: white;
+
+}
+#foot{
+height: 418px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+color: white;
+background-color: black;
+padding: 20px;
+justify-items: center;
+margin: -8px;
+
+}
+
+#foot a:hover{
+font-size: large;
+color: bisque;
+}
